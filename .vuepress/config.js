@@ -27,5 +27,5 @@ module.exports = {
     repoLabel: 'Dépôt Git',
     editLinks: true,
     editLinkText: 'Modifier cette page',
-
+  }
 }
