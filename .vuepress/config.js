@@ -12,8 +12,8 @@ sidebar = [
 
 module.exports = {
   theme: 'gouv-fr',
-  title: 'Démo VuePress Gouv Fr',
-  description: "Démonstration du thème VuePress Gouv Fr.",
+  title: 'Registre Navires Pro',
+  description: "Documentation liée au registre des navire professionnels français par la Direction des Affaires Maritimes",
   head: [
     ['meta', { name: 'theme-color', content: '#0053b3' }]
   ],
@@ -23,7 +23,7 @@ module.exports = {
     sidebar: sidebar,
     sidebarDepth: 1,
     docsDir: ".",
-    repo: 'etalab/vuepress-gouv-fr-demo',
+    repo: 'qloridant/qloridant.github.io',
     repoLabel: 'Dépôt Git',
     editLinks: true,
     editLinkText: 'Modifier cette page',

@@ -1,7 +1,9 @@
+---
+pageClass: full_page
+---
+
 # Modèle de données
 
-
-## Modèle de données
 - Clé primaire : 'num_immat_francais'
 
 |Nom|Titre|Type|Description|Exemple|Propriétés|Publiée|
