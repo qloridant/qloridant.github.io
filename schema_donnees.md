@@ -15,19 +15,19 @@ pageClass: full_page
 |nom_navire|Nom du Navire|text|Nom utilisé pour identifier un navire. Ce champ n'est pas unique et peut changer (notamment lors d'un changemement de propriétaire|Houba Houba|Valeur obligatoire|oui|
 |chantier_construction|Chantier construction|text| - |CHANTIER NAVAL TARIN|Valeur optionnelle|oui|
 |genre_navigation|Genre Navigation|text|Donnée réglementant le temps de de navigation|CI-CABOTAGE INTERNATIONAL|Valeur obligatoire|oui|
-|effectif_minimum|Effectif Minimum|int| Nombre minimum de personnel navigants à bord| 3 | Valeur obligatoire |non (donnée trop incomplète|
-|centre_secu_gestion|Centre sécurité gestionnaire|text|Un centre de sécurité est un service régional de la prévention des risques professionnels maritimes. Il a pour tâche principale la visite de navires professionnels français qui doivent être titulaires d’un permis de navigation (titre de sécurité).|CSN Caen|Valeur obligatoire|non|
+|effectif_minimum|Effectif Minimum|int| Nombre minimum de personnel navigants à bord| 3 | Valeur obligatoire |Pas encore (donnée trop incomplète|
+|centre_secu_gestion|Centre sécurité gestionnaire|text|Un centre de sécurité est un service régional de la prévention des risques professionnels maritimes. Il a pour tâche principale la visite de navires professionnels français qui doivent être titulaires d’un permis de navigation (titre de sécurité).|CSN Caen|Valeur obligatoire|Pas encore|
 |puissance_administrative|Puissance Administrative|double precision|Puissance propulsive en kW + Puissance auxiliaire| - | Valeur optionnelle|oui|
 |puissance_propulsive|Puissance Propulsive|double precision|Puissance propulsive en kW| - | Valeur optionnelle|oui|
 |longueur_hors_tout|Longueur Hors Tout|double precision|Distance entre les points extrêmes avant et arrière de la structure permanente du bateau|11.9|Valeur obligatoire|oui|
 |annee_construction|Année de Construction|int| -  |1989|Valeur obligatoire|oui|
 |type_carburant| Type de carburant|text| Carburant utilisé pour la propulsion du navire |Diesel| Valeur optionnelle|oui|
-|jauge| Jauge | double precision | Mesure de la capacité de transport d'un navire. Unité en UMS | 260 | Valeur obligatoire | non|
-|nombre_moteur| Nombre de moteurs | int |-|2| Valeur optionnelle | non|
+|jauge| Jauge | double precision | Mesure de la capacité de transport d'un navire. Unité en UMS | 260 | Valeur obligatoire |Pas encore|
+|nombre_moteur| Nombre de moteurs | int |-|2| Valeur optionnelle | Pas encore|
 |quartier| Quartier |text| Si RI => Registre International Français| Brest| Valeur optionnelle|oui|
 |date_francisation| Date Francisation |date| Date à laquelle le navire porte la pvaillons français | 12/12/2012 | Valeur optionelle| oui|
-|date_derniere_emission_ais| Date Dernière Emission AIS| date | Date de la dernière émission de position via AIS, dont la vitesse est non nulle | 12/12/2012 | Valeur optionelle |non|
-|moyenne_vitesse_ais|Moyenne Vitesse AIS| int| Moyenne de la vitesse du navire relevé via AIS | 12 knts | Vitesse optionnelle|non|
+|date_derniere_emission_ais| Date Dernière Emission AIS| date | Date de la dernière émission de position via AIS, dont la vitesse est non nulle | 12/12/2012 | Valeur optionelle |Pas encore (déjà disponible sur internet)|
+|moyenne_vitesse_ais|Moyenne Vitesse AIS| int| Moyenne de la vitesse du navire relevé via AIS | 12 knts | Vitesse optionnelle|Pas encore|
 
 
 
