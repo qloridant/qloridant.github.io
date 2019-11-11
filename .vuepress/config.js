@@ -3,19 +3,11 @@ sidebar = [
     title: "L'essentiel",
     collapsable: false,
     children: [
-      'installation',
-      'configuration',
-      'contribuer',
-      'markdown'
+      'general',
+      'schema_donnees',
+      'mises_a_jour'
     ]
-  },
-  {
-    title: "Le superflu",
-    collapsable: true,
-    children: [
-      'vide',
-    ]
-  },
+  }
 ]
 
 module.exports = {
@@ -35,8 +27,5 @@ module.exports = {
     repoLabel: 'Dépôt Git',
     editLinks: true,
     editLinkText: 'Modifier cette page',
-    nav: [
-      { text: 'Site web Etalab', link: 'https://etalab.gouv.fr' },
-    ]
-  }
+
 }
