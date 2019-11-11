@@ -26,6 +26,8 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#0053b3' }]
   ],
   themeConfig: {
+    useMarianne: true,
+    variation: 'white',
     sidebar: sidebar,
     sidebarDepth: 1,
     docsDir: ".",
