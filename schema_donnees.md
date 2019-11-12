@@ -22,7 +22,7 @@ pageClass: full_page
 |longueur_hors_tout|Longueur Hors Tout|double precision|Distance entre les points extrêmes avant et arrière de la structure permanente du bateau|11.9|Valeur obligatoire|oui|
 |annee_construction|Année de Construction|int| -  |1989|Valeur obligatoire|oui|
 |type_carburant| Type de carburant|text| Carburant utilisé pour la propulsion du navire |Diesel| Valeur optionnelle|oui|
-|jauge| Jauge | double precision | Mesure de la capacité de transport d'un navire. Unité en UMS | 260 | Valeur obligatoire |Pas encore|
+|jauge_londres| Jauge Londres| double precision | Mesure de la capacité de transport d'un navire. Unité en UMS | 260 | Valeur obligatoire |oui|
 |nombre_moteur| Nombre de moteurs | int |-|2| Valeur optionnelle | Pas encore|
 |quartier| Quartier |text| Si RI => Registre International Français| Brest| Valeur optionnelle|oui|
 |date_francisation| Date Francisation |date| Date à laquelle le navire porte la pvaillons français | 12/12/2012 | Valeur optionelle| oui|
