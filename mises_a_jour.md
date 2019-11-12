@@ -1,3 +1,3 @@
 # Mises à jour
 
-Aucune mise à jour pour le moment.
+12/11/2019 : Ajout de la colonne 'jauge londres'
